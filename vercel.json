@@ -8,12 +8,9 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/upload-data",
+      "methods": ["POST"],
       "dest": "/app.py"
     }
-  ],
-  "env": {
-    "MY_VAR": "my_value"
-  }
+  ]
 }
-
